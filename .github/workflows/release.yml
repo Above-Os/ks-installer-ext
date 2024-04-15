@@ -14,7 +14,7 @@ env:
 jobs:
   release-linux-amd64:
     runs-on: ubuntu-latest
-    if: github.repository	== 'beclab/ks-installer-ext'
+    if: github.repository	== 'Above-Os/ks-installer-ext'
     steps:
       - uses: actions/checkout@v2
 
