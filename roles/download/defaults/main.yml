@@ -50,7 +50,7 @@ ks_version: >-
   {%- endif %}
 
 #KubeSphere:
-ks_apiserver_repo: "bytetrade/ks-apiserver"
+ks_apiserver_repo: "beclab/ks-apiserver"
 ks_apiserver_tag: "v3.3.0-ext-3"
 ks_controller_manager_repo: "{{ base_repo }}{{ namespace_override | default('kubesphere') }}/ks-controller-manager"
 ks_controller_manager_tag: "{{ ks_version }}"
@@ -172,7 +172,7 @@ prometheus_operator_repo: "{{ base_repo }}{{ namespace_override | default('kubes
 prometheus_operator_tag: v0.55.1
 kube_rbac_proxy_repo: "{{ base_repo }}{{ namespace_override | default('kubesphere') }}/kube-rbac-proxy"
 kube_rbac_proxy_tag: v0.11.0
-kube_state_metrics_repo: "{{ base_repo }}{{ namespace_override | default('bytetrade') }}/kube-state-metrics"
+kube_state_metrics_repo: "{{ base_repo }}{{ namespace_override | default('beclab') }}/kube-state-metrics"
 kube_state_metrics_tag: v2.3.0-ext
 node_exporter_repo: "{{ base_repo }}{{ namespace_override | default('prom') }}/node-exporter"
 node_exporter_tag: v1.3.1
@@ -186,11 +186,11 @@ grafana_tag: 8.3.3
 #notification-manager
 notification_manager_operator_proxy_repo: "{{ base_repo }}{{ namespace_override | default('kubesphere') }}/kube-rbac-proxy"
 notification_manager_operator_proxy_tag: v0.8.0
-notification_manager_operator_repo: "{{ base_repo }}{{ namespace_override | default('bytetrade') }}/notification-manager-operator-ext"
+notification_manager_operator_repo: "{{ base_repo }}{{ namespace_override | default('beclab') }}/notification-manager-operator-ext"
 notification_manager_operator_tag: v0.1.0-ext
-notification_manager_repo: "{{ base_repo }}{{ namespace_override | default('bytetrade') }}/notification-manager-ext"
+notification_manager_repo: "{{ base_repo }}{{ namespace_override | default('beclab') }}/notification-manager-ext"
 notification_manager_tag: v0.1.0-ext
-notification_tenant_sidecar_repo: "{{ base_repo }}{{ namespace_override | default('bytetrade') }}/notification-tenant-sidecar"
+notification_tenant_sidecar_repo: "{{ base_repo }}{{ namespace_override | default('beclab') }}/notification-tenant-sidecar"
 notification_tenant_sidecar_tag: v0.1.0
 
 #ks-logger
