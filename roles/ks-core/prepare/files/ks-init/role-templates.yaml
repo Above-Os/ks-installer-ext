@@ -393,6 +393,8 @@ rules:
       - serviceaccounts
       - services
       - applications
+      - applicationmanagers
+      - imagemanagers
       - controllerrevisions
       - deployments
       - replicasets
